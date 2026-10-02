@@ -1,0 +1,6 @@
+{
+  "name": "SeminarPass AI - 세미나 참가 신청 및 자동 안내 센터",
+  "description": "원데이 클래스 및 사내 세미나 참가 신청, 구글 시트 실시간 연동, Gemini AI 기반 맞춤 사전 가이드 발행 웹앱",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

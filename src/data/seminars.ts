@@ -1,0 +1,123 @@
+import { Seminar } from '../types';
+
+export const SEMINARS: Seminar[] = [
+  {
+    id: 'ai-productivity-2026',
+    title: '2026 사내 AI 실무 워크숍: Gemini로 업무 생산성 3배 높이기',
+    subtitle: '보고서 작성부터 데이터 요약, 업무 자동화까지 비개발자도 바로 써먹는 생성형 AI 마스터 클래스',
+    category: '인공지능 실무',
+    date: '2026년 10월 22일 (목)',
+    time: '14:00 - 17:30 (총 3.5시간)',
+    location: '강남 루터스 타워 4층 컨퍼런스 A홀 (온라인 Zoom 동시 송출)',
+    isOnlineAvailable: true,
+    totalSeats: 45,
+    registeredSeats: 38,
+    badge: '마감임박',
+    fee: '전액 지원 (사내 교육 및 초청 파트너 무료)',
+    speaker: {
+      name: '이현우 디렉터',
+      role: 'Head of AI Innovation',
+      company: '넥스트스텝 테크놀로지',
+      bio: '전 카카오 AI 프로덕트 리드, 대기업 및 스타트업 50여 곳에 생성형 AI 업무 도입 컨설팅 진행',
+    },
+    agenda: [
+      {
+        time: '14:00 - 14:40',
+        title: 'Session 1. 2026 생성형 AI 트렌드와 프롬프트 엔지니어링의 정석',
+        description: '단 3문장으로 원하는 고품질 결과물을 뽑아내는 구조화 프롬프트 기법',
+      },
+      {
+        time: '14:50 - 15:50',
+        title: 'Session 2. 기획서·보고서 작성 10분 완성 핸즈온 실습',
+        description: '시장 조사, 경쟁사 분석, 회의록 자동 정제 및 경영진 보고용 슬라이드 개요화',
+      },
+      {
+        time: '16:00 - 17:00',
+        title: 'Session 3. 스프레드시트 & 이메일 연동 자동화 파이프라인',
+        description: '코딩 없이 Google Sheets + Gemini 연동으로 고객 응대 및 데이터 처리 자동화',
+      },
+      {
+        time: '17:00 - 17:30',
+        title: 'Session 4. 1:1 라이브 Q&A 및 네트워킹',
+        description: '현업에서 겪는 고민 질의응답 및 참가자 간 실무 노하우 교류',
+      },
+    ],
+    tags: ['Gemini AI', '프롬프트 실무', '업무 생산성', '노코드 연동', '실습 포함'],
+  },
+  {
+    id: 'nocode-automation-master',
+    title: '비즈니스 실무자를 위한 노코드(No-Code) 워크플로우 자동화',
+    subtitle: '개발자 도움 없이 구글 시트, 슬랙, 웹훅으로 반복 업무 80% 덜어내기',
+    category: '노코드 자동화',
+    date: '2026년 10월 29일 (목)',
+    time: '15:00 - 18:00 (총 3시간)',
+    location: '판교 테크원 3층 이노베이션 랩 (온라인 동시 진행)',
+    isOnlineAvailable: true,
+    totalSeats: 35,
+    registeredSeats: 22,
+    badge: '인기 클래스',
+    fee: '무료 (사내 교육 및 협력사 초청)',
+    speaker: {
+      name: '박서연 수석 매니저',
+      role: 'Automation Strategy Lead',
+      company: '플로우웍스 코리아',
+      bio: '비개발 기획자 출신으로 전사 120개 자동화 워크플로우를 구축하여 연 1,400시간 업무 단축 달성',
+    },
+    agenda: [
+      {
+        time: '15:00 - 15:45',
+        title: 'Session 1. 일 잘하는 사람들의 0순위 무기: 웹훅과 API 기초',
+        description: '비전공자 눈높이에서 이해하는 데이터 흐름과 자동화 기본 개념',
+      },
+      {
+        time: '15:55 - 16:55',
+        title: 'Session 2. 구글 시트 기반 고객 접수 & 실시간 알림 봇 제작',
+        description: '신청서 접수 즉시 담당자 슬랙 알림 + 자동 이메일 회신 트리거 만들기',
+      },
+      {
+        time: '17:05 - 18:00',
+        title: 'Session 3. 실무 프로젝트 클리닉 & 템플릿 패키지 배포',
+        description: '실제 참가자들의 현업 반복 업무를 그 자리에서 자동화 설계하기',
+      },
+    ],
+    tags: ['Google Sheets', '웹훅(Webhook)', 'Zapier/Make', '업무 효율화'],
+  },
+  {
+    id: 'executive-pitching-skills',
+    title: '의사결정자를 사로잡는 고성과 비즈니스 피칭 & 설득 전략',
+    subtitle: '데이터를 스토리로 바꾸고 단 5분 만에 YES를 이끌어내는 프레젠테이션 스킬업',
+    category: '비즈니스 스킬',
+    date: '2026년 11월 05일 (목)',
+    time: '14:00 - 17:00 (총 3시간)',
+    location: '여의도 IFC 콘래드 컨퍼런스홀 (오프라인 현장 한정)',
+    isOnlineAvailable: false,
+    totalSeats: 30,
+    registeredSeats: 19,
+    badge: '소수정예',
+    fee: '무료 (선착순 배정)',
+    speaker: {
+      name: '정민규 대표',
+      role: 'Managing Partner',
+      company: '스토리앤피치 컨설팅',
+      bio: '누적 300억 원 투자 유치 피칭 코칭, 포춘 500대 기업 임원 대상 프레젠테이션 전담 코치',
+    },
+    agenda: [
+      {
+        time: '14:00 - 14:50',
+        title: 'Session 1. 바쁜 경영진의 뇌를 여는 3-Step 피칭 프레임워크',
+        description: '결론부터 말하지 마라? C-Level이 듣고 싶어 하는 진짜 핵심 질문 3가지',
+      },
+      {
+        time: '15:00 - 16:00',
+        title: 'Session 2. 복잡한 표를 한눈에 읽히는 비주얼 인포그래픽으로 전환하기',
+        description: '텍스트 과다 슬라이드를 심플하고 임팩트 있는 키 메시지로 바꾸는 법',
+      },
+      {
+        time: '16:10 - 17:00',
+        title: 'Session 3. 1분 엘리베이터 스피치 실전 모의 피칭',
+        description: '즉석 멘토 피드백 및 당황스러운 돌발 질문 방어 화법',
+      },
+    ],
+    tags: ['설득 커뮤니케이션', '프레젠테이션', 'C-Level 보고', '피칭 코칭'],
+  },
+];
